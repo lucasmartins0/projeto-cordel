@@ -75,7 +75,7 @@ section > p {
     background-color: rgba(24, 24, 24, 0.618);
     color: white;
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.462);
-    background-size: 100% 100%;
+    background-size: 50% 50%;
     background-attachment: fixed;
 }
 
