@@ -1,5 +1,17 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2? family= Oswald:wght@200;300;400;500;600;700 & display=swap');
+
+@import url('https://fonts.googleapis.com/css2? family= Sriracha & display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Sriracha&display=swap');
+
+:root {
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Sriracha', cursive;
+    --fonte3: 'Oswald', sans-serif;
+    --fonte4: 'Dancing Script', cursive;
+}
 
 * {
     margin: 0px;
@@ -9,6 +21,7 @@
 html, body {
     min-height: 100vh;
     background-color: darkgray;
+    font-family: var(--fonte1);
 }
 
 header {
@@ -21,6 +34,9 @@ header > h1 {
     padding-top: 50px;
     /*text-transform: uppercase; {jogar todas as letras para maúsculo}*/
     font-variant: small-caps;
+    font-family: var(--fonte3);
+    font-size: 2.5em;
+   
 }
 
 header > p {
@@ -41,11 +57,14 @@ section {
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 20px;
+    font-family: var(--fonte2);
+    font-size: 1.5em;
 }
 
 .normal {
     background-color: white; 
     color: black;
+    font-family: var(--fonte2);
 }
 
 .imagem {
