@@ -61,25 +61,51 @@ section {
     font-size: 1.5em;
 }
 
+section > p {
+    padding-bottom: 2em;
+}
+
 .normal {
     background-color: white; 
     color: black;
     font-family: var(--fonte2);
 }
 
-.imagem {
+.imagem1, .imagem2 {
     background-color: rgba(24, 24, 24, 0.618);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.462);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
-.imagem > p {
+.imagem1 > p {
     background-color: rgba(0, 0, 0, 0.647);
-    width: 300px;
+    max-width: 300px;
+    text-shadow: 1px 1px 0px rgb(0, 0, 0);
 }
+
+.imagem1 {
+    background-image: url('../imagens/background001.jpg');
+    background-position: right center;
+}
+.imagem2 > p {
+    background-color: rgba(0, 0, 0, 0.638);
+    max-width: 300px;
+    text-shadow: 1px 1px 0px rgb(0, 0, 0);
+}
+
+.imagem2 {
+    background-image: url('../imagens/background002.jpg');
+    background-position: center center;
+    
+}
+
 
 footer {
     background-color: black;
     color: white;
     text-align: center;
     padding: 5px;
+    font-size: 0.9em;
  }
