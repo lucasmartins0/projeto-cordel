@@ -35,7 +35,7 @@ header > h1 {
     /*text-transform: uppercase; {jogar todas as letras para maúsculo}*/
     font-variant: small-caps;
     font-family: var(--fonte3);
-    font-size: 2.5em;
+    font-size: 2.5em; /*Poderia usar por exemplo 10vw que seria 10% da largura total ta pagina, que nesse caso a letra iria se adaptar automaticamente*/
    
 }
 
@@ -81,7 +81,8 @@ section > p {
 
 .imagem1 > p {
     background-color: rgba(0, 0, 0, 0.647);
-    max-width: 300px;
+    display: inline-block; 
+    padding: 5px;
     text-shadow: 1px 1px 0px rgb(0, 0, 0);
 }
 
@@ -92,7 +93,7 @@ section > p {
 }
 .imagem2 > p {
     background-color: rgba(0, 0, 0, 0.638);
-    max-width: 300px;
+    max-width: 300px; /* Aqui poderíamos usar também um display:inline-block para a caixa colar na letra*/
     text-shadow: 1px 1px 0px rgb(0, 0, 0);
 }
 
